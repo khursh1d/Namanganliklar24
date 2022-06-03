@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*:focus{
+    outline: 1px dashed #7296ee;
+    outline-offset: 2px;
+}
+html{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Rubik";
+    font-weight: 400;
+    font-style: 16px;
+    line-height: 22px;
+    color: #4a4b4c;
+    background-color: #fff;
+}
+/* CONTAINER STYLES */
+.container{
+    width: 100%;
+    max-width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* FONT STYLES */
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Bold.woff2') format('woff2'),
+        url('../fonts/Rubik-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Regular.woff2') format('woff2'),
+        url('../fonts/Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('../fonts/Rubik-Medium.woff2') format('woff2'),
+        url('../fonts/Rubik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
