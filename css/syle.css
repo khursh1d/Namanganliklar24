@@ -60,3 +60,91 @@ body{
     font-style: normal;
     font-display: swap;
 }
+/* SITE HEADER STYLES */
+/* .site-header {} */
+/* SITE HEADER TOP STYLES */
+.site-header__top {
+    background-color:#f6f6f6 ;
+    padding: 30px 0px;
+}
+.site-header__top-container {
+    display: flex;
+    align-items: center;
+}
+.site-logo {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    color: #7296ee;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 9px 6px 8px;
+    display: inline-block;
+    margin-right: 35px;
+}
+.currency-rates {
+    display: flex;
+    list-style: none;
+    margin-right: auto;
+}
+.currency-rates__item-mar{
+    margin-right: 25px;
+}
+.currency-rates b{
+    color: #2959ce;
+    font-weight: 700;
+    line-height: 19px;
+}
+.currency-rates span{
+    line-height: 19px;
+}
+.currency-rates:first-child{
+}
+.site-header__form:first-child {
+}
+.site-header__form-input {
+    background-image: url(../images/home/Mask.svg);
+    background-repeat:no-repeat ;
+    background-size: 15px 15px;
+    background-position: 17.5px 15.5px;
+    width: 275px;
+    padding: 15px 10px 13px 41px;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+    margin-right: 35px;
+}
+.lang-togler {
+    padding: 3px;
+    border-radius: 39px;
+    background-color: #dce6ff;
+    margin-right: 25px;
+}
+.lang-togler__link {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #a6a6a6;
+    text-align: center;
+}
+.lang-togler__active {
+    background-color: #fff;
+    color: #000;
+}
+.site-header__btn {
+    text-decoration: none;
+    padding: 13px 20px;
+    border-radius: 10px;
+    background-color: #7296ec;
+    font-weight: 500;
+    line-height: 19px;
+    color: #fff;
+    display: inline-block;
+
+}
+/* SITE HEADER STYLES END */
