@@ -19,7 +19,7 @@ body{
     flex-direction: column;
     font-family: "Rubik";
     font-weight: 400;
-    font-style: 16px;
+    font-size: 16px;
     line-height: 22px;
     color: #4a4b4c;
     background-color: #fff;
@@ -84,6 +84,12 @@ body{
     display: inline-block;
     margin-right: 35px;
 }
+.site-logo:hover{
+    opacity: 0.8;
+}
+.site-logo:active{
+    opacity: 0.6;
+}
 .currency-rates {
     display: flex;
     list-style: none;
@@ -146,7 +152,12 @@ body{
     line-height: 19px;
     color: #fff;
     display: inline-block;
-
+}
+.site-header__btn:hover{
+    opacity: 0.8;
+}
+.site-header__btn:active{
+    opacity: 0.6;
 }
 /* SITE HEADER STYLES END */
 
@@ -181,6 +192,12 @@ body{
     color: #7f7f7f;
     text-decoration: none;
 }
+.sitenav__link:hover{
+    color: #7296ee;
+}
+.sitenav__link:active{
+    opacity: 0.6;
+}
 /* SITE HEADER BOTTOM END */
 .site-header__banner {
     display: flex;
@@ -190,3 +207,75 @@ body{
     max-width: 1200px;
 }
 /* SITE HEADER BANNER */
+
+/* SITE MAIN STYLES */
+.site-main{
+    padding-bottom: 100px;
+}
+/* SITE MAIN CARD STYLES */
+.news-cards__list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -10px;
+    margin-bottom: 50px;
+}
+.news-card__item {
+    width: 393px;
+    padding: 20px 17px 15px ;
+    border-radius: 15px;
+    background-color: #f6f6f6;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.news-cards__title {
+    margin-bottom: 10px;
+}
+.news-cards__link {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+}
+.news-cards__link:hover{
+    color: #7296ee;
+}
+.news-cards__text {
+    margin-bottom: 15px;
+    flex-grow: 1;
+}
+.news-cards__img-div {
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.news-cards-img:hover {
+    transform: scale(1.1);
+    margin-top: auto;
+}
+.news-cards-img{
+    transition: transform 0.5s ease;
+    display: block;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.news-cards-footer {
+    display: flex;
+    align-items: center;
+    font-style: 12px;
+    line-height: 14px;
+    color: #5e5f61;
+}
+.news-cards__footer-img {
+    object-fit: contain;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.news-cards__footer-text {
+    margin-right: 4px;
+}
+.news-cards__footer-time {
+}
